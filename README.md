@@ -47,4 +47,4 @@ idf2 = bow.idf(['d1', 'd2', 'd2', 'd3'])
 -   `bow.unique_words_(<doc_ids>)`
 
 #   Updating submodules
--   `git submodule update --init --recursive --remote --merge`
+-   `git submodule update --init --recursive --remote --force --merge`
