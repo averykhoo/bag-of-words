@@ -46,5 +46,14 @@ idf2 = bow.idf(['d1', 'd2', 'd2', 'd3'])
 -   `bow.stopwords_(<doc_ids>)`
 -   `bow.unique_words_(<doc_ids>)`
 
-#   Updating submodules
+### Updating submodules
 -   `git submodule update --init --recursive --remote --force --merge`
+
+### todo
+-   inverted index
+    -   word locations
+    -   sentence boundaries? or index sentences instead?
+    -   phrase search
+    -   stopwords
+    -   word co-occurrence
+    -   similar docs (via tf / tfidf) (specify idf?)
